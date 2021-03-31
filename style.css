@@ -542,7 +542,7 @@ h1,h2,h3{
     box-sizing: border-box;
     color: #FDFDFD;
     background-color:#151515 ;
-    font-size: 0.9em;
+    font-size: 1em;
     width: 80%;
     text-align: left;
 }
@@ -564,7 +564,7 @@ h1,h2,h3{
 .answer-content{
     padding-right: 25%;
     color: #9E9E9E;
-    font-size: 0.8em;
+    font-size: 1em;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
@@ -1633,7 +1633,7 @@ color: #9E9E9E;
         }
         
     #pricing{
-        margin-top:200px;
+        margin-top:250px;
         padding:0 130px;
     }
 
@@ -1722,6 +1722,7 @@ color: #9E9E9E;
     /* feedback section */
 
     #feedback{
+	margin-top:200px;
         padding: 0 130px;
         position: relative;
         overflow-y: visible;
